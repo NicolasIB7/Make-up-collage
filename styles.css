@@ -25,7 +25,12 @@ header{
     width: auto;
     max-width: 100%;
     margin: 5px;
+    transition: 3s;
 }
+
+.nav-logo:hover{
+    transform:translate(150px);
+    }
 
 .nav-lista{  
     background-color: transparent;
