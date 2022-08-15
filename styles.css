@@ -25,6 +25,11 @@ header{
     width: auto;
     max-width: 100%;
     margin: 5px;
+    transition: 3s;
+}
+
+.nav-logo:hover{
+transform:translate(150px);
 }
 
 .nav-lista{  
@@ -35,11 +40,6 @@ header{
     border-radius: 5px;
     border: 3px solid yellow;
 }
-
-.nav-lista__responsive{
-    display: none;
-}
-
 
 nav ul li a{
     text-decoration: none;
