@@ -8,7 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    border: 5px solid green;
+    
 }    
 header{
     background-image: linear-gradient(to bottom,black,rgb(46, 45, 45));
@@ -38,7 +38,6 @@ header{
     padding: 7px;
     margin-right: 50px;
     border-radius: 5px;
-    border: 3px solid yellow;
 }
 
 
@@ -64,7 +63,6 @@ nav ul li {
 
 footer{
     background-image: linear-gradient(to bottom,rgb(0, 0, 0),rgb(29, 28, 28));
-    border: 5px solid red;
     display: flex;
     padding: 20px;
     align-items: center;
@@ -76,14 +74,12 @@ footer{
     margin-right: auto;
     margin-top: 20px;
     font-size: 15px;
-    border: 3px solid yellow;
     
 }
 
 .links-logo{
     margin-right: 400px;
     align-items: center;
-    border: 3px solid yellow;
 }
 .links-logo__1{
     height: 25px;
@@ -104,7 +100,6 @@ footer div img:hover{
 .div-imagenes{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    border: 5px solid blue;
 }
 
 
@@ -148,7 +143,6 @@ footer div img:hover{
     margin-top: 10%;
     margin-bottom: 10%;
     background-color: rgba(216, 212, 212, 0.521);
-    border: 3px solid yellow;
 }
 
 .boton__1{
@@ -191,7 +185,7 @@ footer div img:hover{
 
 .div-beauty__1, .div-beauty__2, .div-beauty__3, .div-beauty__4{
     width: 100%;
-    height:700px;
+    height:800px;
 }
 .div-ma{
     display: grid;
