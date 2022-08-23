@@ -9,9 +9,11 @@ body{
     flex-direction: column;
     min-height: 100vh;
     
-}    
-header{
-    background-image: linear-gradient(to bottom,black,rgb(46, 45, 45));
+    
+}  
+ 
+#header{
+    background-image: linear-gradient(to bottom,rgb(0, 0, 0),rgb(29, 28, 28));
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,18 +23,18 @@ header{
 
 .nav-logo{
     display: flex;
-    height: 100px;
-    width: auto;
+    height: 80px;
+    width: 80px;
     max-width: 100%;
     margin: 5px;
-    transition: 3s;
+    margin-left: 15px;
+    margin-top: 15px;
+    
 }
+.nav-logo__1{
+    border-radius: 5%;}
 
-.nav-logo:hover{
-    transform:translate(150px);
-    }
-
-.nav-lista{  
+#nav-lista{  
     background-color: transparent;
     list-style-type: none;
     padding: 7px;
@@ -42,23 +44,28 @@ header{
 
 
 
-nav ul li a{
+#a{
     text-decoration: none;
     font-family: 'Cormorant SC', serif;
     font-size: 1.3rem;
     color: rgb(255, 255, 255);  
     
 }
-nav ul li a:hover{
+#a:hover{
     color: rgb(190, 184, 184);
     font-size: 1.4rem;
 }
-nav ul li {
+#li{
     display: inline-block;
     padding: 0 10px; 
     background-color: rgb(20, 20, 20); 
     margin: 5px;
     border-radius: 5%;
+}
+.navbar-toggler-icon{
+    font-size: 1.6rem;
+    background-color: rgb(27, 27, 27);
+    border-radius: 10%;
 }
 
 footer{
@@ -91,7 +98,12 @@ footer{
     height:20px ;
     width: 20px;
     margin: 3px;
-    
+}
+.links-logo__3{
+    height: 27px;
+    width:27px;
+    margin:3px;
+    border-radius: 20%;
 }
 
 footer div img:hover{
@@ -196,7 +208,14 @@ footer div img:hover{
     height: 600px;
 }
 
-
+#div-estudio__1, #div-estudio__2, #div-estudio__3{
+    width: 40rem;
+    height:40rem;
+}
+#carouselExampleControls, #carru{
+    margin-left: 30%;
+    
+}
 
 
 
