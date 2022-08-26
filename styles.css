@@ -118,6 +118,7 @@ footer div img:hover{
 .div-imagenes__1,.div-imagenes__2,.div-imagenes__3,.div-imagenes__4{
     height: 600px;
     width: 100%;
+    object-fit: cover;
 }
 
 .main-2{
@@ -198,6 +199,7 @@ footer div img:hover{
 .div-beauty__1, .div-beauty__2, .div-beauty__3, .div-beauty__4{
     width: 100%;
     height:800px;
+    object-fit: cover;
 }
 .div-ma{
     display: grid;
