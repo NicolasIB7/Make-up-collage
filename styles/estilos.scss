@@ -1,0 +1,68 @@
+@import "./partials/_footer.scss";
+@import "./partials/_header.scss";
+@import "./partials/_main.scss";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant SC', serif;
+}
+
+
+footer div img:hover{
+    transform: scale(1.5);
+}
+
+#carouselExampleControls, #carru{
+    margin-left: 30%;    
+}
+
+@media only screen and (max-width:850px) {
+    nav ul li a{
+        font-size: 1rem;
+    }
+    .div-imagenes{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    } 
+    .links-logo{
+        margin-right: 0px;
+    }
+    .nav-logo{
+        height: 50px;
+    }
+    .main-2{
+        display: block;
+    }
+    .acercademi-img{
+        margin-left: 40px;  
+    }
+    .acercademi-img__1{
+        height:20rem;
+        width:20rem;
+    }
+    .div-beauty{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .div-ma{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .form{
+        font-size: 1rem;
+        padding: 10px;
+    }
+    .boton__1{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:530px) {
+    .div-imagenes{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    } 
+}
+

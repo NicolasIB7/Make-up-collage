@@ -1,0 +1,256 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+body footer {
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(29, 28, 28));
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: auto;
+}
+body footer .h5 {
+  color: rgb(248, 248, 248);
+  margin-right: auto;
+  margin-top: 20px;
+  font-size: 15px;
+}
+body footer .links-logo {
+  margin-right: 400px;
+  align-items: center;
+}
+body footer .links-logo .links-logo__1 {
+  height: 25px;
+  width: 25px;
+  color: white;
+  margin: 3px;
+}
+body footer .links-logo .links-logo__2 {
+  height: 20px;
+  width: 20px;
+  margin: 3px;
+}
+body footer .links-logo .links-logo__3 {
+  height: 27px;
+  width: 27px;
+  margin: 3px;
+  border-radius: 20%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+body #header {
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(29, 28, 28));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+body #header .nav-logo {
+  display: flex;
+  height: 80px;
+  width: 80px;
+  max-width: 100%;
+  margin: 5px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+body #header .nav-logo__1 {
+  border-radius: 5%;
+}
+body #header #nav-lista {
+  background-color: transparent;
+  list-style-type: none;
+  padding: 7px;
+  margin-right: 50px;
+  border-radius: 5px;
+}
+body #header #nav-lista #li {
+  display: inline-block;
+  padding: 0 10px;
+  background-color: rgb(20, 20, 20);
+  margin: 5px;
+  border-radius: 5%;
+}
+body #header #nav-lista #li #a {
+  text-decoration: none;
+  font-family: "Cormorant SC", serif;
+  font-size: 1.3rem;
+  color: rgb(255, 255, 255);
+}
+body #header #nav-lista #li #a:hover {
+  color: rgb(190, 184, 184);
+  font-size: 1.4rem;
+}
+body #header .navbar-toggler-icon {
+  font-size: 1.6rem;
+  background-color: rgb(27, 27, 27);
+  border-radius: 10%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+body .div-imagenes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+body .div-imagenes .div-imagenes__1, body .div-imagenes .div-imagenes__2, body .div-imagenes .div-imagenes__3, body .div-imagenes .div-imagenes__4 {
+  height: 600px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .main-2 {
+  display: flex;
+  margin-top: 50px;
+}
+body .main-2 .acercademi-img__1 {
+  width: 30rem;
+  height: 30rem;
+  border: 3px solid rgb(31, 31, 31);
+  margin-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+body .main-2 .acerca-de-mi {
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+  font-family: "Uchen", serif;
+  margin-left: 40px;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+body .form {
+  display: flex;
+  border: 2px solid rgb(0, 0, 0);
+  align-self: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  padding: 30px;
+  margin-right: 350px;
+  margin-left: 350px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-color: rgba(216, 212, 212, 0.521);
+}
+body .form .form__1, body .form .form__2, body .form .form__3, body .form .form__4 {
+  margin: 20px;
+}
+body .form .form__1 .boton__1, body .form .form__2 .boton__1, body .form .form__3 .boton__1, body .form .form__4 .boton__1 {
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: rgb(43, 43, 43);
+  color: rgb(255, 255, 255);
+  padding: 7px;
+  border-radius: 5px;
+  margin-left: 30%;
+}
+body .form .form__1 .boton__1:hover, body .form .form__2 .boton__1:hover, body .form .form__3 .boton__1:hover, body .form .form__4 .boton__1:hover {
+  background-color: rgb(83, 83, 83);
+}
+body .form .form__1 .form__11, body .form .form__1 .form__21, body .form .form__1 .form__31, body .form .form__1 .form__41, body .form .form__2 .form__11, body .form .form__2 .form__21, body .form .form__2 .form__31, body .form .form__2 .form__41, body .form .form__3 .form__11, body .form .form__3 .form__21, body .form .form__3 .form__31, body .form .form__3 .form__41, body .form .form__4 .form__11, body .form .form__4 .form__21, body .form .form__4 .form__31, body .form .form__4 .form__41 {
+  background-color: rgb(43, 43, 43);
+  padding: 7px;
+  border-radius: 5px;
+  width: 300px;
+  font-size: 1.3rem;
+  color: white;
+  border-bottom: 5px solid rgb(247, 247, 247);
+}
+body .form .form__1 .form__41, body .form .form__2 .form__41, body .form .form__3 .form__41, body .form .form__4 .form__41 {
+  min-height: 60px;
+  max-height: 200px;
+}
+body .div-beauty {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+body .div-beauty .div-beauty__1, body .div-beauty .div-beauty__2, body .div-beauty .div-beauty__3, body .div-beauty .div-beauty__4 {
+  width: 100%;
+  height: 800px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .div-ma {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+body .div-ma .div-ma__1, body .div-ma .div-ma__2, body .div-ma .div-ma__3, body .div-ma .div-ma__4 {
+  width: 100%;
+  height: 600px;
+}
+body #div-estudio__1, body #div-estudio__2, body #div-estudio__3 {
+  width: 40rem;
+  height: 40rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Cormorant SC", serif;
+}
+
+footer div img:hover {
+  transform: scale(1.5);
+}
+
+#carouselExampleControls, #carru {
+  margin-left: 30%;
+}
+
+@media only screen and (max-width: 850px) {
+  nav ul li a {
+    font-size: 1rem;
+  }
+  .div-imagenes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .links-logo {
+    margin-right: 0px;
+  }
+  .nav-logo {
+    height: 50px;
+  }
+  .main-2 {
+    display: block;
+  }
+  .acercademi-img {
+    margin-left: 40px;
+  }
+  .acercademi-img__1 {
+    height: 20rem;
+    width: 20rem;
+  }
+  .div-beauty {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .div-ma {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .form {
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .boton__1 {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .div-imagenes {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}/*# sourceMappingURL=estilos.css.map */

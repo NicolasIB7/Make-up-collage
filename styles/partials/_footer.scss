@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    footer{
+    background-image: linear-gradient(to bottom,rgb(0, 0, 0),rgb(29, 28, 28));
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: auto;
+    .h5{
+        color: rgb(248, 248, 248);
+        margin-right: auto;
+        margin-top: 20px;
+        font-size: 15px;   
+    }
+    .links-logo{
+        margin-right: 400px;
+        align-items: center;
+        .links-logo__1{
+            height: 25px;
+            width: 25px;
+            color: white;
+            margin: 3px;
+        }
+        .links-logo__2{
+            height:20px ;
+            width: 20px;
+            margin: 3px;
+        }
+        .links-logo__3{
+            height: 27px;
+            width:27px;
+            margin:3px;
+            border-radius: 20%;
+        }
+    }
+}
+}
