@@ -1,0 +1,8 @@
+.form{
+    padding: 7px;
+    border-radius: 5px;
+    width: 300px;
+    color: white;
+    border-bottom: 5px solid rgb(247, 247, 247);  
+    @include color-tamaño( 1.3rem, rgb(43, 43, 43));
+} 

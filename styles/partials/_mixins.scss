@@ -1,0 +1,11 @@
+@mixin sizes($width,$height){
+    width: $width;
+    height:$height;
+}
+
+@mixin color-tamaño($colorDeFondo,$tamanoLetra){
+    background-color: $colorDeFondo;
+    font-size: $tamanoLetra;
+}
+
+

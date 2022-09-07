@@ -4,20 +4,19 @@ body{
     min-height: 100vh;
     #header{
         background-image: linear-gradient(to bottom,rgb(0, 0, 0),rgb(29, 28, 28));
-        display: flex;
+        display: map-get($estilo1,display);
         justify-content: space-between;
-        align-items: center;
+        align-items: map-get($estilo1,align-items);
         padding-bottom: 50px;
         padding-top: 20px;
 
         .nav-logo{
             display: flex;
-            height: 80px;
-            width: 80px;
             max-width: 100%;
             margin: 5px;
             margin-left: 15px;
             margin-top: 15px;
+            @include sizes(80px,80px);
         } 
         .nav-logo__1{
             border-radius: 5%;} 
@@ -47,8 +46,7 @@ body{
                 }
             }
     .navbar-toggler-icon{
-        font-size: 1.6rem;
-        background-color: rgb(27, 27, 27);
+        @include color-tamaño(1.6rem, rgb(27, 27, 27));
         border-radius: 10%;
         }      
     }
