@@ -90,7 +90,7 @@ body #header #nav-lista #li #a:hover {
 }
 body #header .navbar-toggler-icon {
   font-size: 1.6rem;
-  background-color: rgb(27, 27, 27);
+  background-color: rgb(255, 242, 242);
   border-radius: 10%;
 }
 
@@ -209,48 +209,56 @@ footer div img:hover {
 }
 
 @media only screen and (max-width: 851px) {
-  nav ul li a {
+  body nav ul li a {
     font-size: 1rem;
   }
-  .div-imagenes {
+  body .div-imagenes {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
-  .links-logo {
+  body footer .links-logo {
     margin-right: 0px;
   }
-  .nav-logo {
+  body header.nav-logo {
     height: 50px;
   }
-  .main-2 {
+  body .main-2 {
     display: block;
   }
-  .acercademi-img {
+  body .main-2 .acercademi-img {
     margin-left: 40px;
   }
-  .acercademi-img__1 {
+  body .main-2 .acercademi-img__1 {
     height: 20rem;
     width: 20rem;
   }
-  .div-beauty {
+  body .div-beauty {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-  .div-ma {
+  body .div-ma {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-  .form {
+  body .form {
     font-size: 1rem;
     padding: 10px;
   }
-  .boton__1 {
+  body .form .form__4 .boton__1 {
     font-size: 1rem;
+  }
+  body #div-estudio__1, body #div-estudio__2, body #div-estudio__3 {
+    width: 30rem;
+    height: 30rem;
   }
 }
 @media only screen and (max-width: 530px) {
-  .div-imagenes {
+  body .div-imagenes {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+  }
+  body #div-estudio__1, body #div-estudio__2, body #div-estudio__3 {
+    width: 10rem;
+    height: 10rem;
   }
 }/*# sourceMappingURL=estilos.css.map */
