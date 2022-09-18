@@ -1,6 +1,9 @@
 @import "./partials/_footer.scss";
 @import "./partials/_header.scss";
 @import "./partials/_main.scss";
+@import "./partials/extend";
+@import "./partials/map";
+@import "./partials/mixins";
 
 *{
     box-sizing: border-box;
