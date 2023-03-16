@@ -9,3 +9,8 @@ It is a responsive project about to show the work of a makeup artist, where we c
 -SASS
 -BOOTSTRAP
 -RESPONSIVE DESIGN
+
+
+
+
+https://agus-mac.vercel.app/index.html
